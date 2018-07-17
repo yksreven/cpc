@@ -1,0 +1,79 @@
+<style>
+body {
+  background-image: url(https://images2.imgbox.com/aa/1c/uoY4hrVy_o.png);
+  overflow:hidden;
+}
+#base {
+    background-color: rgba(255, 255, 255,0.7);
+    width:500px;
+    min-height:300px;
+    border-radius:50px;
+    box-shadow:1px 1px 2px 1px inset #fdd1c2;
+    position:relative;
+    top:-65px;
+}
+#outline {
+     content: ('');
+     background-color:#F5C2C3;
+  width: 550px;
+  height: 350px;
+  border: 2px solid #fff;
+border-radius:70px;
+margin-top:20px;
+}
+#base .text {
+    padding:5px 30px;
+    font-size:10px;
+    height:auto;
+    width:500px;
+    overflow:auto;
+    font-family:calibri;
+    letter-spacing:0.5px;
+    margin-left:-30px;
+}
+#navigate {
+     font-family:comic sans ms;font-size:11px;letter-spacing:0.5px;
+     position:relative;left:440px;top:-95px;text-align:left;
+}
+#navigate a {
+    text-decoration:none;
+    color:#fff;
+    text-shadow:1px 1px #9C6E6E;
+}
+#navigate a:hover {
+    text-decoration:underline;
+    color:#fff;
+    text-shadow:1px 1px #9C6E6E;
+}
+.text hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    width:100px;
+}
+::-webkit-scrollbar {
+    width: 2px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+    background: #E5B7B7;
+}
+</style>
+<body>
+        <a href="{BlogURL}"><img src="https://images2.imgbox.com/7a/50/nX6uRRNw_o.png" style="position:relative;top:60px;left:-50px;z-index:9;"></a>
+        <div id="outline"><div id="navigate"><a href="/about">about</a> <br>
+        <a href="/crew">crew</a> <br>
+        <a href="/adopt">adopt</a> <br>
+        <a href="/hex">hex</a> <br>
+        <a href="/downloadz">downloadz</a> <br>
+        <a href="/bye">bye</a></div><div id="base"><div class="text">
+     {Description}
+     </div></div></div><p style="color:#000;font-family:calibri;font-size:9px;text-align:center;position:relative;top:-8px;left:190px;z-index:9;opacity:0.4;font-style:italic;">
+     coded by cookie</p>      
+     <img src="https://images2.imgbox.com/c4/c5/rYTIx0n0_o.png" style="position:relative;top:-220px;left:-160px;">
+     <img src="https://images2.imgbox.com/35/08/M8NrG6Cr_o.png" 
+     style="position:relative;top:-200px;left:230px;">
+    </body>
